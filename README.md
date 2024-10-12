@@ -1,6 +1,8 @@
 # oxfordplantsreminders
 
+Should be in the crontab!
 
+```
 # Run fetch_responses.sh once a day at 00:00 (midnight)
 0 0 * * * /bin/bash /root/Plants/fetch_responses.sh
 
@@ -9,4 +11,5 @@
 
 # Run send_random_message.sh every Saturday at 09:00
 0 9 * * 6 /bin/bash /root/Plants/send_random_message.sh
+```
 
